@@ -34,7 +34,7 @@
     return reverseString(r);
   }
   function Ctemp(name,price,img){
-    if (img==0) {
+    if (img==0||img==null) {
       // img = 'https://alppetro.co.id/dist/assets/images/default.jpg';
       img = '';
     }else{
